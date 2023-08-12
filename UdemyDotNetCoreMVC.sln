@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyDotNetCoreMVC", "UdemyDotNetCoreMVC\UdemyDotNetCoreMVC.csproj", "{086E7B89-48A2-41E3-94D1-47821E0765FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086E7B89-48A2-41E3-94D1-47821E0765FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086E7B89-48A2-41E3-94D1-47821E0765FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086E7B89-48A2-41E3-94D1-47821E0765FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086E7B89-48A2-41E3-94D1-47821E0765FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9309BBD5-EAD0-4F8B-A9C0-36A32B1A0518}
+	EndGlobalSection
+EndGlobal
