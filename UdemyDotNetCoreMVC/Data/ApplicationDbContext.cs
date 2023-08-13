@@ -10,8 +10,10 @@ namespace UdemyDotNetCoreMVC.Data
             
         }
 
+        // Create category table
         public DbSet<Category> Categories { get; set; }
 
+        // Add seed for category table
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             modelBuilder.Entity<Category>().HasData(
                     new Category { Id = 1, Name = "Action", DisplayOrder = 1 },
