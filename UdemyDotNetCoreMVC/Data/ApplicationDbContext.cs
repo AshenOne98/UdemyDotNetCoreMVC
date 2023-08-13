@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using UdemyDotNetCoreMVC.Models;
 
 namespace UdemyDotNetCoreMVC.Data
 {
@@ -8,5 +9,7 @@ namespace UdemyDotNetCoreMVC.Data
         {
             
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
